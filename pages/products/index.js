@@ -1,12 +1,12 @@
+import Product from "../components/Product";
 
 const Products = ({products}) => {
 
   return (
-    <div>
- <h1>Category {products.category}</h1>
- {
-
- }
+    <div className="grid grid-cols-3 gap-4">
+      {products.map((product) => (
+        <Product product={product} key={product.id}></Product>
+      ))}
     </div>
   );
 };
@@ -19,7 +19,7 @@ export const getStaticProps = async () =>{
 
   return {
     props:{
-      products: data
+      products: data,
     }
   }
 }
