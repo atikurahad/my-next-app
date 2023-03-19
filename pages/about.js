@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
+import Navbar from "./Navbar";
 
 const About = () => {
   return (
     <div>
+      <Navbar />
       <Head>
         <title>About page</title>
       </Head>
