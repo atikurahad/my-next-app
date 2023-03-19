@@ -19,7 +19,6 @@ const About = () => {
             Profile
           </Link>
         </button>
-      {/* </div> */}
     </div>
   );
 };

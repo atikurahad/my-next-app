@@ -3,7 +3,7 @@ const Product = ({product}) => {
   return (
     <>
       <div>
-        <div className="card w-96 h-[38rem] glass">
+        <div className="card w-96 h-[38rem] glass my-5">
           <figure>
             <img src={product.images[0]} alt="car!" />
           </figure>
