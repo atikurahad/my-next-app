@@ -1,0 +1,5 @@
+.footer-bg {
+  background: url(../public/footer_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
