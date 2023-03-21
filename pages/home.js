@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Footer from "./components/Footer";
 
 const Home = () => {
   return (
@@ -6,7 +7,7 @@ const Home = () => {
       <div className="h-[full] bg-white">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center gap-5 py-[5rem] mx-12">
           <section className="my-2">
-            <div className="h-[24rem] w-[20rem] bg-[#f3f3f3]">
+            <div className="h-[24rem] w-[20rem] p-4 bg-[#f3f3f3]">
               <img
                 className="h-[5rem] w-[5rem] bg-black rounded-full mx-auto "
                 src="http://silkensewing.com/assets/img/mission-vision/mission.png"
@@ -41,7 +42,7 @@ const Home = () => {
           </section>
 
           <section>
-            <div className="h-[24rem] w-[20rem] bg-[#f3f3f3]">
+            <div className="h-[24rem] w-[20rem] p-4 bg-[#f3f3f3]">
               <img
                 className="h-[5rem] w-[5rem] bg-black rounded-full mx-auto"
                 src="http://silkensewing.com/assets/img/mission-vision/values.png"
@@ -61,38 +62,65 @@ const Home = () => {
 
         <div className="h-[17rem] bg-[url('http://silkensewing.com/assets/img/count/count-bg.jpg')]">
           <div className="flex mx-[12rem]">
-            <section className="flex-auto">
+            <section className="flex-auto justify-center	items-center	">
               <img
-                className="h-[5rem] w-[5rem] m-[1.9rem]"
-                src="./certification.png"
+                className="h-[5rem] w-[5rem] m-[1.9rem] mx-auto"
+                src="./partner.png"
                 alt=""
               />
-              <p className="text-4xl font-bold text-blue-500">30+</p>
-              <p>Our Partners</p>
+              <p className="text-4xl font-bold text-blue-500 text-center">
+                30+
+              </p>
+              <p className="text-center font-bold text-white text-[1rem] my-2">
+                Our Partners
+              </p>
             </section>
 
             <section className="flex-auto">
               <img
-                className="h-[5rem] w-[5rem] m-[1.9rem]"
-                src="./certification.png"
+                className="h-[5rem] w-[5rem] m-[1.9rem] mx-auto"
+                src="./experience.png"
                 alt=""
               />
-              <p>30+</p>
-              <p>Our Partners</p>
+              <p className="text-4xl font-bold text-blue-500 text-center">
+                12+
+              </p>
+              <p className="text-center font-bold text-white text-[1rem] my-2">
+                Years Of Experience
+              </p>
             </section>
 
             <section className="flex-auto">
               <img
-                className="h-[5rem] w-[5rem] m-[1.9rem]"
-                src="./certification.png"
+                className="h-[5rem] w-[5rem] m-[1.9rem] mx-auto"
+                src="./pick-up-truck.png"
                 alt=""
               />
-              <p>30+</p>
-              <p>Our Partners</p>
+              <p className="text-center text-4xl font-bold text-blue-500">
+                70000000+
+              </p>
+              <p className="text-center font-bold text-white text-[1rem] my-2">
+                Total Shipment
+              </p>
+            </section>
+
+            <section className="flex-auto">
+              <img
+                className="h-[5rem] w-[5rem] m-[1.9rem] mx-auto"
+                src="./partner (2).png"
+                alt=""
+              />
+              <p className="text-center text-4xl font-bold text-blue-500">8</p>
+              <p className="text-center font-bold text-white text-[1rem] my-2">
+                Total Certificates
+              </p>
             </section>
           </div>
         </div>
       </div>
+
+<Footer />
+
     </>
   );
 };

@@ -1,9 +1,8 @@
 
-// import '../../pages/customCss/Footer.module.css'
 const Footer = () => {
   return (
-    <div>
-      <div className="footer-bg h-96"></div>
+    <div className="bg-[url('http://silkensewing.com/assets/img/bg/footer_bg.png')]">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1"> hi</div>
     </div>
   );
 };
