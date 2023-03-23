@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-[url('http://silkensewing.com/assets/img/bg/footer_bg.png')] ">
-        <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-[12rem] my-12 justify-start">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-[12rem] my-12 justify-start ">
           <section className="my-12">
             <h1 className="text-2xl text-white font-bold ">Contact</h1>
             <article className="flex mt-10">
@@ -49,12 +49,14 @@ const Footer = () => {
             <a href="">Career</a>
           </section>
 
-          <section>
+          <section className="">
             <h1 className="text-2xl text-white font-bold my-12">
               Subscribe To Our News Letter
             </h1>
             <div className="mt-[2rem]">
-              <p className="text-white font-bold">You can get our monthly newsletter by subscribing here.</p>
+              <p className="text-white font-bold">
+                You can get our monthly newsletter by subscribing here.
+              </p>
               <input
                 className="py-[0.5rem] px-[2.5rem] bg-white mt-2"
                 type="email"
@@ -65,8 +67,8 @@ const Footer = () => {
             </div>
           </section>
         </div>{" "}
-        <hr />
-        <p className=" text-center  font-mono text-xl">
+        <span className=""></span>
+        <p className=" text-center  font-mono text-xl mt-2 pb-[3rem] divide-y divide-blue-200">
           &copy; 2023 Silken Sewing Ltd.
         </p>
       </div>

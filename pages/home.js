@@ -119,8 +119,33 @@ const Home = () => {
         </div>
       </div>
 
-<Footer />
+      <section className="bg-white">
+        <div className="flex  justify-center	items-center	">
+          <img src="circle_left.png" alt="" />
+          <span className="text-2xl text-blue-900 font-semibold ">OUR SERVICES</span>
+          <img src="circle_right.png" alt="" />
+        </div>
 
+        <div>
+          <div className="card w-96 bg-base-100 shadow-xl image-full">
+            <figure>
+              <img
+                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
     </>
   );
 };
