@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="h-[full] bg-white">
-        <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center gap-5 py-[5rem] mx-12">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-4 py-[5rem] mx-12">
           <section className="my-2">
             <div className="h-[24rem] w-[20rem] p-4 bg-[#f3f3f3]">
               <img
@@ -119,76 +119,68 @@ const Home = () => {
         </div>
       </div>
 
-      <section className="bg-white my-5">
-        <div className="flex  justify-center	items-center	">
+      <section className="bg-white  py-[8rem]">
+        <div className="flex  justify-center	items-center	py-4">
           <img src="circle_left.png" alt="" />
-          <span className="text-2xl text-blue-900 font-semibold ">
+          <span className="text-2xl text-blue-900 font-bold ">
             OUR SERVICES
           </span>
           <img src="circle_right.png" alt="" />
         </div>
 
-        <div className="grid grid-cols-3">
-          <div>
-            <div className="card w-[18rem] bg-base-100 shadow-xl image-full">
-              <figure>
-                <img src="printing.jpg" alt="Shoes" />
-              </figure>
-              <div className="card-body">
-                <div className="card-actions justify-center">
-                  <img
-                    className="card-title h-48 w-[15rem]"
-                    src="printing.jpg"
-                    alt=""
-                  />
-                </div>
-                <h2 className="text-2xl text-center font-bold  text-white">
-                  Printing
-                </h2>
-              </div>
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-4">
+          <div className="card w-[18rem] h-[18rem] shadow-xl">
+            <figure>
+              <img
+                className="h-[18rem] w-[18rem]"
+                src="printing.jpg"
+                alt="Printing"
+              />
+            </figure>
+            <div className="p-4">
+              <h2 className=" text-center text-xl font-bold text-gray-700">
+                Printing
+              </h2>
+            </div>
+          </div>
+          <div className="card w-[18rem] h-[18rem] shadow-xl">
+            <figure>
+              <img
+                className="h-[18rem] w-[18rem]"
+                src="kninting.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div className="p-4">
+              <h2 className=" text-center text-xl font-bold text-gray-700">
+                Kniting
+              </h2>
             </div>
           </div>
 
-
-          <div>
-            <div className="card w-[18rem] bg-base-100 shadow-xl image-full">
-              <figure>
-                <img src="printing.jpg" alt="Shoes" />
-              </figure>
-              <div className="card-body">
-                <div className="card-actions justify-center">
-                  <img
-                    className="card-title h-48 w-[15rem]"
-                    src="printing.jpg"
-                    alt=""
-                  />
-                </div>
-                <h2 className="text-2xl text-center font-bold  text-white">
-                  Printing
-                </h2>
-              </div>
+          <div className="card w-[18rem] h-[18rem] shadow-xl">
+            <figure>
+              <img
+                className="h-[18rem] w-[18rem]"
+                src="woven.png"
+                alt="Woven"
+              />
+            </figure>
+            <div className="p-4">
+              <h2 className=" text-center text-xl font-bold text-gray-700">
+                Woven Garments
+              </h2>
             </div>
           </div>
 
-
-
-          <div>
-            <div className="card w-[18rem] bg-base-100 shadow-xl image-full">
-              <figure>
-                <img src="printing.jpg" alt="Shoes" />
-              </figure>
-              <div className="card-body">
-                <div className="card-actions justify-center">
-                  <img
-                    className="card-title h-48 w-[15rem]"
-                    src="printing.jpg"
-                    alt=""
-                  />
-                </div>
-                <h2 className="text-2xl text-center font-bold  text-white">
-                  Printing
-                </h2>
-              </div>
+          <div className="card w-[18rem] h-[18rem] shadow-xl">
+            <figure>
+              <img className="h-[18rem] w-[18rem]" src="knit.jpg" alt="knit" />
+            </figure>
+            <div className="p-4">
+              <h2 className=" text-center text-xl font-bold text-gray-700">
+                Knit Garments
+              </h2>
             </div>
           </div>
         </div>
