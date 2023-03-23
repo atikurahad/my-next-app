@@ -119,26 +119,75 @@ const Home = () => {
         </div>
       </div>
 
-      <section className="bg-white">
+      <section className="bg-white my-5">
         <div className="flex  justify-center	items-center	">
           <img src="circle_left.png" alt="" />
-          <span className="text-2xl text-blue-900 font-semibold ">OUR SERVICES</span>
+          <span className="text-2xl text-blue-900 font-semibold ">
+            OUR SERVICES
+          </span>
           <img src="circle_right.png" alt="" />
         </div>
 
-        <div>
-          <div className="card w-96 bg-base-100 shadow-xl image-full">
-            <figure>
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+        <div className="grid grid-cols-3">
+          <div>
+            <div className="card w-[18rem] bg-base-100 shadow-xl image-full">
+              <figure>
+                <img src="printing.jpg" alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <div className="card-actions justify-center">
+                  <img
+                    className="card-title h-48 w-[15rem]"
+                    src="printing.jpg"
+                    alt=""
+                  />
+                </div>
+                <h2 className="text-2xl text-center font-bold  text-white">
+                  Printing
+                </h2>
+              </div>
+            </div>
+          </div>
+
+
+          <div>
+            <div className="card w-[18rem] bg-base-100 shadow-xl image-full">
+              <figure>
+                <img src="printing.jpg" alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <div className="card-actions justify-center">
+                  <img
+                    className="card-title h-48 w-[15rem]"
+                    src="printing.jpg"
+                    alt=""
+                  />
+                </div>
+                <h2 className="text-2xl text-center font-bold  text-white">
+                  Printing
+                </h2>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div>
+            <div className="card w-[18rem] bg-base-100 shadow-xl image-full">
+              <figure>
+                <img src="printing.jpg" alt="Shoes" />
+              </figure>
+              <div className="card-body">
+                <div className="card-actions justify-center">
+                  <img
+                    className="card-title h-48 w-[15rem]"
+                    src="printing.jpg"
+                    alt=""
+                  />
+                </div>
+                <h2 className="text-2xl text-center font-bold  text-white">
+                  Printing
+                </h2>
               </div>
             </div>
           </div>
