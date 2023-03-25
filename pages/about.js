@@ -61,7 +61,7 @@ const About = () => {
         </section>
 
 
-        <div className="grid grid-cols-3 ">
+        <div className="grid grid-cols-3 mx-[12rem] items-center">
 
         <section>
           <img src="ethical.png" alt="" />
