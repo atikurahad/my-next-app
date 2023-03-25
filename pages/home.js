@@ -122,7 +122,7 @@ const Home = () => {
       <section className="bg-white  py-[8rem]">
         <div className="flex  justify-center	items-center	py-4">
           <img src="circle_left.png" alt="" />
-          <span className="text-2xl text-blue-900 font-bold ">
+          <span className="text-2xl text-blue-900 font-bold mx-2 ">
             OUR SERVICES
           </span>
           <img src="circle_right.png" alt="" />
