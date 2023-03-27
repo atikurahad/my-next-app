@@ -25,6 +25,12 @@ const Navbar = () => {
               About
             </Link>
             <Link
+              href={"/services"}
+              className="text-2xl text-white font-bold m-2 hover:text-blue-400"
+            >
+              Services
+            </Link>
+            <Link
               href={"/products"}
               className="text-2xl text-white font-bold m-2 hover:text-blue-400"
             >

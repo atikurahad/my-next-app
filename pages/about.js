@@ -1,14 +1,14 @@
 import Head from "next/head";
 
 const About = () => {
+
+
   return (
     <div className="bg-white">
       <Head>
         <title>About page</title>
       </Head>
-      <h1 className="text-4xl text-center font-bold text-yellow-400">
-        I am from about
-      </h1>
+
 
       <div className="flex  justify-center	items-center	py-4">
         <img src="circle_left.png" alt="" />
@@ -16,13 +16,13 @@ const About = () => {
         <img src="circle_right.png" alt="" />
       </div>
 
-      <div className="grid lg:grid-cols-2">
-        <section>
-          <h1>
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 items-center mx-[12rem] my-4">
+        <section className="mx-5">
+          <h1 className="text-3xl text-black  font-bold">
             SILKEN SEWING - to be one of the most regarded RMG operations in
             Bangladesh
           </h1>
-          <p>
+          <p className="text-gray-600">
             SILKEN SEWING has started its journey in 2008 in a small scale knit
             apparel manufacturing with the vision of having one of the regarded
             & trusted home for the Apparel manufacturing in the world. It has
@@ -44,53 +44,53 @@ const About = () => {
             Corporate Social responsibility like Sky`s the Limit, Healthy Child
             Wealthy Bangladesh.
           </p>
-          <article className=" flex">
-            <img className="h-[8rem] w-[8rem]" src="12-years-logo.jpg" alt="logo" />
-            <button className="btn   py-[2rem] px-[2.8rem] items-center justify-center text-xl text-center">Read more</button>
+          <article className=" flex items-center justify-center">
+            <img
+              className="h-[8rem] w-[8rem]"
+              src="12-years-logo.jpg"
+              alt="logo"
+            />
+            <button className="btn bg-sky-500 btn-wide text-white">Read More</button>
+            {/* <button className="btn   py-[2rem] px-[2.8rem] items-center justify-center text-xl text-center">Read more</button> */}
           </article>
         </section>
 
-        <section>
+        <section className="my-8">
           <img src="http://silkensewing.com/assets/img/XsLkbpn_d.webp" alt="" />
         </section>
       </div>
-
-      <div>
-        <section>
-          <button className="w-12 h-2">Our Achivement</button>
-        </section>
-
-
-        <div className="grid grid-cols-3 mx-[12rem] items-center">
-
-        <section>
-          <img src="ethical.png" alt="" />
-        </section>
-        <section>
-          <img src="second.jpg" alt="" />
-        </section>
-        <section>
-          <img src="third.png" alt="" />
-        </section>
-        <section>
-          <img src="fourth.png" alt="" />
-        </section>
-        <section>
-          <img src="five.png" alt="" />
-        </section>
-        <section>
-          <img src="six.png" alt="" />
-        </section>
-        <section>
-          <img src="seven.jpg" alt="" />
-        </section>
-        <section>
-          <img src="eight.png" alt="" />
-        </section>
-        <section>
-          <img src="nine.png" alt="" />
-        </section>
-
+      <button className=" text-white font-bold text-xl bg-sky-500 my-10  py-8 px-12">
+        Our Achivement
+      </button>
+      <div className="mt-10">
+        <div className="grid lg:grid-cols-3 gap-4 sm:grid-cols-1 mx-[12rem] items-center mt-5">
+          <section>
+            <img src="ethical.png" alt="" />
+          </section>
+          <section>
+            <img src="second.jpg" alt="" />
+          </section>
+          <section>
+            <img src="third.png" alt="" />
+          </section>
+          <section>
+            <img src="fourth.png" alt="" />
+          </section>
+          <section>
+            <img src="five.png" alt="" />
+          </section>
+          <section>
+            <img src="six.png" alt="" />
+          </section>
+          <section>
+            <img src="seven.jpg" alt="" />
+          </section>
+          <section>
+            <img src="eight.png" alt="" />
+          </section>
+          <section>
+            <img src="nine.png" alt="" />
+          </section>
         </div>
       </div>
 
