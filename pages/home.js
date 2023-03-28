@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Footer from "./components/Footer";
 
 const Home = () => {
   return (
@@ -186,7 +185,6 @@ const Home = () => {
         </div>
       </section>
 
-      <Footer />
     </>
   );
 };
