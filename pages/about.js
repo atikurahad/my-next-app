@@ -9,7 +9,6 @@ const About = () => {
         <title>About page</title>
       </Head>
 
-
       <div className="flex  justify-center	items-center	py-4">
         <img src="circle_left.png" alt="" />
         <span className="text-2xl text-blue-900 font-bold mx-2 ">ABOUT US</span>
@@ -50,7 +49,9 @@ const About = () => {
               src="12-years-logo.jpg"
               alt="logo"
             />
-            <button className="btn bg-sky-500 btn-wide text-white">Read More</button>
+            <button className="btn bg-sky-500 btn-wide text-white">
+              Read More
+            </button>
             {/* <button className="btn   py-[2rem] px-[2.8rem] items-center justify-center text-xl text-center">Read more</button> */}
           </article>
         </section>
@@ -59,9 +60,11 @@ const About = () => {
           <img src="http://silkensewing.com/assets/img/XsLkbpn_d.webp" alt="" />
         </section>
       </div>
-      <button className=" text-white font-bold text-xl bg-sky-500 my-10  py-8 px-12">
-        Our Achivement
-      </button>
+      <div className="flex flex-auto justify-center">
+        <button className=" text-white bg-black font-bold text-xl  my-10  py-8 px-24 hover:text-yellow-500">
+          Our Achivement
+        </button>
+      </div>
       <div className="mt-10">
         <div className="grid lg:grid-cols-3 gap-4 sm:grid-cols-1 mx-[12rem] items-center mt-5">
           <section>

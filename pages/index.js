@@ -14,9 +14,7 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1 className="text-6xl text-center text-yellow-300 font-bold">
-          Hello World
-        </h1>
+
       </div>
     </>
   );
