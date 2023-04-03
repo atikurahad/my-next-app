@@ -1,8 +1,13 @@
 import Link from "next/link";
+import Carousel from "react-bootstrap/Carousel";
+import Testimonial from "./components/Testimonial";
+
 
 const Home = () => {
   return (
     <>
+
+
       <div className="h-[full] bg-white">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-4 py-[5rem] mx-12">
           <section className="my-2">
@@ -118,10 +123,13 @@ const Home = () => {
         </div>
       </div>
 
+
+
+
       <section className="bg-white  py-[8rem]">
-        <div className="flex  justify-center	items-center	py-4">
+        <div className="flex  justify-center	items-center	py-4 my-4">
           <img src="circle_left.png" alt="" />
-          <span className="text-2xl text-blue-900 font-bold mx-2 ">
+          <span className="text-4xl text-blue-900 font-bold mx-2  ">
             OUR SERVICES
           </span>
           <img src="circle_right.png" alt="" />
@@ -185,8 +193,102 @@ const Home = () => {
         </div>
       </section>
 
+
+        <Testimonial />
+
+       {/* for carousel */}
+
+<Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=First slide&bg=373940"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Second slide&bg=282c34"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Third slide&bg=20232a"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
+
+
+      {/* <section className="bg-white">
+        <div className="carousel rounded-box ">
+          <div className="carousel-item">
+            <img
+              src={"/car1.jpg"}
+              alt="Burger"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src={"car2.jpg"}
+              alt="Burger"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
+              alt="Burger"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/images/stock/photo-1494253109108-2e30c049369b.jpg"
+              alt="Burger"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+              alt="Burger"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/images/stock/photo-1559181567-c3190ca9959b.jpg"
+              alt="Burger"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
+              alt="Burger"
+            />
+          </div>
+        </div>
+      </section> */}
     </>
   );
 };
 
 export default Home;
+

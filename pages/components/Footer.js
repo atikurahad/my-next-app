@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <>
@@ -44,11 +46,35 @@ const Footer = () => {
             </section>
 
             <section>
-              <h1 className="text-2xl text-white font-bold my-12">Our Links</h1>
-              <a href="">Home</a>
-              <a href="">Contact</a>
-              <a href="">About</a>
-              <a href="">Career</a>
+              <h1 className="text-2xl text-white font-bold my-12 hover:font-mono">
+                Our Links
+              </h1>
+              <div className="flex flex-col text-xl font-bold my-2 text-white">
+                <Link
+                  className="hover:text-blue-600 hover:font-mono"
+                  href={"/home"}
+                >
+                  Home
+                </Link>
+                <Link
+                  className="hover:text-blue-600 hover:font-mono"
+                  href={"/contact"}
+                >
+                  Contact
+                </Link>
+                <Link
+                  className="hover:text-blue-600 hover:font-mono"
+                  href={"/about"}
+                >
+                  About
+                </Link>
+                <Link
+                  className="hover:text-blue-600 hover:font-mono"
+                  href={"/career"}
+                >
+                  Career
+                </Link>
+              </div>
             </section>
 
             <section className="">
