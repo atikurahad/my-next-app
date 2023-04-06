@@ -1,12 +1,39 @@
 import Link from "next/link";
 import Carousel from "react-bootstrap/Carousel";
 import Testimonial from "./components/Testimonial";
+import ContactBg from "./components/ContactBg";
 
 
 const Home = () => {
   return (
     <>
+      {/* carousel start */}
 
+      <div className="w-[100%] h-[50.6rem] carousel rounded-box ">
+        <div className="carousel-item w-full">
+          <img
+            src={"caru3.png"}
+            className="w-full"
+            alt="Tailwind CSS Carousel component"
+          />
+        </div>
+        <div className="carousel-item w-full">
+          <img
+            src={"caru1.jpg"}
+            className="w-full"
+            alt="Tailwind CSS Carousel component"
+          />
+        </div>
+        <div className="carousel-item w-full">
+          <img
+            src={"caru2.jpg"}
+            className="w-full"
+            alt="Tailwind CSS Carousel component"
+          />
+        </div>
+      </div>
+
+      {/* carousel end */}
 
       <div className="h-[full] bg-white">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center gap-4 py-[5rem] mx-12">
@@ -123,9 +150,6 @@ const Home = () => {
         </div>
       </div>
 
-
-
-
       <section className="bg-white  py-[8rem]">
         <div className="flex  justify-center	items-center	py-4 my-4">
           <img src="circle_left.png" alt="" />
@@ -193,99 +217,36 @@ const Home = () => {
         </div>
       </section>
 
-
-        <Testimonial />
-
-       {/* for carousel */}
-
-<Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-
-
-
-      {/* <section className="bg-white">
-        <div className="carousel rounded-box ">
-          <div className="carousel-item">
-            <img
-              src={"/car1.jpg"}
-              alt="Burger"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={"car2.jpg"}
-              alt="Burger"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-              alt="Burger"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/images/stock/photo-1494253109108-2e30c049369b.jpg"
-              alt="Burger"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-              alt="Burger"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/images/stock/photo-1559181567-c3190ca9959b.jpg"
-              alt="Burger"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-              alt="Burger"
-            />
-          </div>
+      <div className="py-[6rem] bg-white">
+        <div className="flex  justify-center	items-center	py-4 my-4">
+          <img src="circle_left.png" alt="" />
+          <span className="text-4xl text-blue-900 font-bold mx-2  ">
+            OUR TEAM
+          </span>
+          <img src="circle_right.png" alt="" />
         </div>
-      </section> */}
+
+        <img className="w-[80%] h-full mx-auto" src={"our-team.jpg"} alt="" />
+      </div>
+
+      <Testimonial />
+
+      <div className="bg-[url('http://silkensewing.com/assets/img/call/call-bg.png')] bg-no-repeat">
+        <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center  ">
+          <section>
+            <img className="h-[18rem]" src="/mr2.png" alt="" />
+          </section>
+          <section className="my-auto">
+            <p className="text-4xl font-bold text-center text-white mb-2">We are ready to serve</p>
+            <p className="text-6xl font-bold text-center text-blue-400">+88 02 48964132</p>
+          </section>
+          <section>
+            <img className="h-[18rem]" src="/mr3.png" alt="" />
+          </section>
+        </div>
+      </div>
+
+      <ContactBg />
     </>
   );
 };

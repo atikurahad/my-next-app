@@ -42,6 +42,23 @@ const Navbar = () => {
             >
               Contact
             </Link>
+
+
+            <Link
+              href={"/contact "}
+              className="text-2xl text-white font-bold m-2 hover:text-blue-400"
+            >
+              Albums
+            </Link>
+
+            <Link
+              href={"/contact "}
+              className="text-2xl text-white font-bold m-2 hover:text-blue-400"
+            >
+              News
+            </Link>
+
+
             <Link
               href={"/career"}
               className="text-2xl text-white font-bold m-2 hover:text-blue-400"

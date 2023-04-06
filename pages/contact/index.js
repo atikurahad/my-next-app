@@ -1,20 +1,20 @@
 const Contact = () => {
   return (
     <div className="bg-white">
-      <div className="grid lg:grid-cols-2 ">
+      <div className="grid lg:grid-cols-2">
         <div>
           {" "}
-          <div className="flex  items-center flex-col">
-            <section>
-              <h1 className="text-2xl font-bold text-blue-600 ">Hot Line</h1>
+          <div className="flex flex-col my-3 mx-12">
+            <section className="my-4">
+              <h1 className="text-4xl font-bold text-blue-600 ">Hot Line</h1>
               <p className="text-black">Cell: +88 02 48964132</p>
             </section>
-            <section>
-              <h1 className="text-2xl font-bold text-blue-600 ">Call Us</h1>
+            <section  className="my-4">
+              <h1 className="text-4xl font-bold text-blue-600 ">Call Us</h1>
               <p className="text-black">Tel: +88 09611686004-7, +88 02 8933290, 02477 990021</p>
             </section>
-            <section>
-              <h1 className="text-2xl font-bold text-blue-600 ">Email Us</h1>
+            <section className="my-4">
+              <h1 className="text-4xl font-bold text-blue-600 ">Email Us</h1>
               <span className="text-black">
                 Info Service:{" "}
                 <a
@@ -38,8 +38,8 @@ const Contact = () => {
             </section>
           </div>
           <section className="flex flex-col my-3 mx-12">
-            <h1 className="text-2xl font-bold bl-2 text-blue-800">
-              Get In Tuch
+            <h1 className="text-4xl font-bold  text-blue-800">
+              Get In Touch
             </h1>
             <input
               className="bg-white text-black border-2 p-2 my-2 border-gray-600 "
