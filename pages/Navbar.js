@@ -52,7 +52,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href={"/contact "}
+              href={"/news "}
               className="text-2xl text-white font-bold m-2 hover:text-blue-400"
             >
               News

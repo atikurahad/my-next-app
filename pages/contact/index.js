@@ -6,15 +6,15 @@ const Contact = () => {
           {" "}
           <div className="flex flex-col my-3 mx-12">
             <section className="my-4">
-              <h1 className="text-4xl font-bold text-blue-600 ">Hot Line</h1>
+              <h1 className="text-4xl font-bold text-blue-600 mb-2">Hot Line</h1>
               <p className="text-black">Cell: +88 02 48964132</p>
             </section>
             <section  className="my-4">
-              <h1 className="text-4xl font-bold text-blue-600 ">Call Us</h1>
+              <h1 className="text-4xl font-bold text-blue-600 mb-2">Call Us</h1>
               <p className="text-black">Tel: +88 09611686004-7, +88 02 8933290, 02477 990021</p>
             </section>
             <section className="my-4">
-              <h1 className="text-4xl font-bold text-blue-600 ">Email Us</h1>
+              <h1 className="text-4xl font-bold text-blue-600 mb-2">Email Us</h1>
               <span className="text-black">
                 Info Service:{" "}
                 <a
@@ -38,7 +38,7 @@ const Contact = () => {
             </section>
           </div>
           <section className="flex flex-col my-3 mx-12">
-            <h1 className="text-4xl font-bold  text-blue-800">
+            <h1 className="text-4xl font-bold  text-blue-800 mb-2">
               Get In Touch
             </h1>
             <input

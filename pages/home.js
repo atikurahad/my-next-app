@@ -231,7 +231,7 @@ const Home = () => {
 
       <Testimonial />
 
-      <div className="bg-[url('http://silkensewing.com/assets/img/call/call-bg.png')] bg-no-repeat">
+      <div className="bg-[url('http://silkensewing.com/assets/img/call/call-bg.png')] bg-no-repeat bg-cover">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center  ">
           <section>
             <img className="h-[18rem]" src="/mr2.png" alt="" />
