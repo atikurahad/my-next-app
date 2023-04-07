@@ -3,7 +3,7 @@ import Product from "../components/Product";
 const Products = ({products}) => {
   return (
     <>
-      <div className="grid grid-cols-3 gap-4  justify-items-center">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4  justify-items-center">
         {products.map((product) => (
           <Product product={product} key={product.id}></Product>
         ))}

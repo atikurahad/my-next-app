@@ -217,6 +217,27 @@ const Home = () => {
         </div>
       </section>
 
+      <div className=" bg-sky-700">
+        <video className="h-full w-full" controls>
+          <source
+            src={
+              "https://www.youtube.com/watch?v=bdoGylk_c38&ab_channel=SilkenSewingLtd"
+            }
+            type=""
+          />
+          <img src={'car1.jpg'} alt="" />
+        </video>
+
+
+
+
+
+
+
+
+
+      </div>
+
       <div className="py-[6rem] bg-white">
         <div className="flex  justify-center	items-center	py-4 my-4">
           <img src="circle_left.png" alt="" />
@@ -232,13 +253,17 @@ const Home = () => {
       <Testimonial />
 
       <div className="bg-[url('http://silkensewing.com/assets/img/call/call-bg.png')] bg-no-repeat bg-cover">
-        <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 justify-items-center  ">
+        <div className="grid lg:grid-cols-3 md:grid-cols-3 gap-4 sm:grid-cols-1 justify-items-center  ">
           <section>
             <img className="h-[18rem]" src="/mr2.png" alt="" />
           </section>
           <section className="my-auto">
-            <p className="text-4xl font-bold text-center text-white mb-2">We are ready to serve</p>
-            <p className="text-6xl font-bold text-center text-blue-400">+88 02 48964132</p>
+            <p className="text-4xl font-bold text-center text-white mb-2">
+              We are ready to serve
+            </p>
+            <p className="text-6xl font-bold text-center text-blue-400">
+              +88 02 48964132
+            </p>
           </section>
           <section>
             <img className="h-[18rem]" src="/mr3.png" alt="" />
