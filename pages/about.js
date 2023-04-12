@@ -9,14 +9,14 @@ const About = () => {
         <title>About page</title>
       </Head>
 
-      <div className="flex  justify-center	items-center	py-4">
+      {/* <div className="flex  justify-center	items-center	py-4">
         <img src="circle_left.png" alt="" />
         <span className="text-2xl text-blue-900 font-bold mx-2 ">ABOUT US</span>
         <img src="circle_right.png" alt="" />
-      </div>
+      </div> */}
 
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 items-center mx-[12rem] my-4">
-        <section className="mx-5">
+        {/* <section className="mx-5">
           <h1 className="text-3xl text-black  font-bold">
             SILKEN SEWING - to be one of the most regarded RMG operations in
             Bangladesh
@@ -52,21 +52,24 @@ const About = () => {
             <button className="btn bg-sky-500 btn-wide text-white">
               Read More
             </button>
-            {/* <button className="btn   py-[2rem] px-[2.8rem] items-center justify-center text-xl text-center">Read more</button> */}
+
           </article>
-        </section>
+        </section> */}
+
 
         <section className="my-8">
           <img src="http://silkensewing.com/assets/img/XsLkbpn_d.webp" alt="" />
         </section>
       </div>
+
+
       <div className="flex flex-auto justify-center">
         <button className=" text-white bg-black font-bold text-xl  my-10  py-8 px-24 hover:text-yellow-500">
-          Our Achivement
+          Our Major Customers
         </button>
       </div>
       <div className="mt-10">
-        <div className="grid lg:grid-cols-3 gap-4 sm:grid-cols-1 mx-[12rem] items-center mt-5">
+        <div className="grid lg:grid-cols-4 gap-4 sm:grid-cols-2 mx-auto items-center mt-5">
           <section>
             <img src="ethical.png" alt="" />
           </section>
@@ -79,21 +82,7 @@ const About = () => {
           <section>
             <img src="fourth.png" alt="" />
           </section>
-          <section>
-            <img src="five.png" alt="" />
-          </section>
-          <section>
-            <img src="six.png" alt="" />
-          </section>
-          <section>
-            <img src="seven.jpg" alt="" />
-          </section>
-          <section>
-            <img src="eight.png" alt="" />
-          </section>
-          <section>
-            <img src="nine.png" alt="" />
-          </section>
+
         </div>
       </div>
 

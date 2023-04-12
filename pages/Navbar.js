@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 ">
           <Link href={"/"}>
             <section className="flex-1">
-              <Image src={"/silken.png"} height={120} width={130} alt='logo'></Image>
+              <Image src={"/mk-attire.jpg"} height={120} width={130} alt='logo'></Image>
             </section>
           </Link>
           <section className="flex">
@@ -44,12 +44,7 @@ const Navbar = () => {
             </Link>
 
 
-            <Link
-              href={"/contact "}
-              className="text-2xl text-white font-bold m-2 hover:text-blue-400"
-            >
-              Albums
-            </Link>
+
 
             <Link
               href={"/news "}

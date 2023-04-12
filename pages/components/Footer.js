@@ -16,8 +16,8 @@ const Footer = () => {
                   alt="contact"
                 />
                 <span className="flex flex-col	ml-2">
-                  <p className="font-bold text-white">+88 02 48964132</p>
-                  <p className="font-bold text-white">+88 02 8933290</p>
+                  <p className="font-bold text-white">+88 01711-974027</p>
+                  <p className="font-bold text-white">+88 01716-670738</p>
                 </span>
               </article>
 
@@ -28,7 +28,7 @@ const Footer = () => {
                   alt="email"
                 />
                 <p className="font-bold text-white ml-2  ">
-                  info@silkensweing.com
+                  hassan@mkattire.com
                 </p>
               </article>
 
@@ -39,8 +39,14 @@ const Footer = () => {
                   alt="location"
                 />
                 <span className="flex flex-col ml-2 p-2">
-                  <p className="text-white font-bold">House# 02,Road# 20/A,</p>
-                  <p className="text-white font-bold">Sector# 03, Uttara</p>
+                  <p className="text-white font-bold">
+                    Holding No. 02, Kamarjuri, Ward No. 36, PO. National
+                    University,
+                  </p>
+                  <p className="text-white font-bold">
+                    {" "}
+                    Gacha, Gazipur-1704, Bangladesh.
+                  </p>
                 </span>
               </article>
             </section>
@@ -96,8 +102,8 @@ const Footer = () => {
             </section>
           </div>{" "}
           <span className=""></span>
-          <p className=" text-center  font-mono text-xl mt-2 pb-[3rem] divide-y divide-blue-200">
-            &copy; 2023 Silken Sewing Ltd.
+          <p className=" text-white text-center  font-mono text-xl mt-2 pb-[3rem] divide-y divide-blue-200">
+            &copy; 2023 MK ATTIRE LTD.
           </p>
         </div>
       </footer>
