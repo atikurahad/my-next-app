@@ -4,7 +4,7 @@ const Services = () => {
       <section className="bg-white  py-[8rem]">
         <div className="flex  justify-center	items-center	py-4">
           <img src="circle_left.png" alt="" />
-          <span className="text-2xl text-blue-900 font-bold mx-2 ">
+          <span className="text-2xl text-blue-900 font-bold mx-2 py-5">
             OUR SERVICES
           </span>
           <img src="circle_right.png" alt="" />
@@ -21,7 +21,7 @@ const Services = () => {
             </figure>
             <div className="p-4">
               <h2 className=" text-center text-xl font-bold text-gray-700">
-                Printing
+                Treatments
               </h2>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Services = () => {
             </figure>
             <div className="p-4">
               <h2 className=" text-center text-xl font-bold text-gray-700">
-                Kniting
+                Knitted Fabrics
               </h2>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Services = () => {
             </figure>
             <div className="p-4">
               <h2 className=" text-center text-xl font-bold text-gray-700">
-                Woven Garments
+                Baby Products{" "}
               </h2>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Services = () => {
             </figure>
             <div className="p-4">
               <h2 className=" text-center text-xl font-bold text-gray-700">
-                Knit Garments
+                Knitted Products
               </h2>
             </div>
           </div>
